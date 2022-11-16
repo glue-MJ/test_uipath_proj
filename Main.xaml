@@ -101,7 +101,7 @@
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
     <ui:GetOutlookMailMessages Account="{x:Null}" Filter="{x:Null}" FilterByMessageIds="{x:Null}" TimeoutMS="{x:Null}" DisplayName="Get Outlook Mail Messages" GetAttachements="False" sap:VirtualizedContainerService.HintSize="510,32" sap2010:WorkflowViewState.IdRef="GetOutlookMailMessages_1" MailFolder="Work Ones" MarkAsRead="False" Messages="[AllMails]" OnlyUnreadMessages="False" OrderByDate="NewestFirst" Top="1" />
-    <umab:OutlookApplicationCard Account="MJQUAH20.20@ichat.sp.edu.sg" AccountMismatchBehavior="UseDefaultEmailAccount" DisplayName="Use Desktop Outlook App" sap:VirtualizedContainerService.HintSize="510,881.3333333333334" sap2010:WorkflowViewState.IdRef="OutlookApplicationCard_1">
+    <umab:OutlookApplicationCard Account="MJQUAH20.20@ichat.sp.edu.sg" AccountMismatchBehavior="UseDefaultEmailAccount" DisplayName="Outlook Application Scope" sap:VirtualizedContainerService.HintSize="510,881.3333333333334" sap2010:WorkflowViewState.IdRef="OutlookApplicationCard_1">
       <umab:OutlookApplicationCard.Body>
         <ActivityAction x:TypeArguments="um:IMailQuickHandle">
           <ActivityAction.Argument>
